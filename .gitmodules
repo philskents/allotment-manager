@@ -1,6 +1,7 @@
 [submodule "allotments/🌱 Digital Garden Publishing"]
 	path = allotments/🌱 Digital Garden Publishing
 	url = https://github.com/philskents/allotments-garden.git
+	branch = main
 [submodule "Perlite"]
 	path = Perlite
 	url = https://github.com/secure-77/Perlite.git
