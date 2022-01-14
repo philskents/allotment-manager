@@ -30,4 +30,4 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
           registry: ghcr.io
-          workdir: Perlite
+          workdir: perlite/perlite
