@@ -23,5 +23,10 @@ jobs:
           persist-credentials: false
 
       # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: ls Perlite
+      - name: Publish to Registry
+        uses: elgohr/Publish-Docker-Github-Action@master
+        with:
+          name: philskents/allotment-manager/app
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+          registry: ghcr.io
